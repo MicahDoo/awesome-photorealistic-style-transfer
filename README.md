@@ -27,7 +27,7 @@ comment: Key contribution is Photorealism regularization and augmented style los
 
 ### 2018
 #### *[ECCV2018]* A Closed-form Solution to Photorealistic Image Stylization [[paper](https://arxiv.org/abs/1802.06474)] [[code](https://github.com/NVIDIA/FastPhotoStyle)]  
-comment: *Recommand to reimplement.* A two stage method which includes a stylization step and a smoothing step. Both steps have a closed-form solution (can be computed eﬃciently). The stylization step is based on the whitening and coloring transform (WCT), which stylizes images via feature projections. The smoothing step is to optimize a smoothness term and a ﬁtting term which leads to a quadratic problem. Knowledge about 
+comment: *Recommend to reimplement.* A two stage method which includes a stylization step and a smoothing step. Both steps have a closed-form solution (can be computed eﬃciently). The stylization step is based on the whitening and coloring transform (WCT), which stylizes images via feature projections. The smoothing step is to optimize a smoothness term and a ﬁtting term which leads to a quadratic problem. Knowledge about 
 linear algebra is need.
 
 #### [ACM MM 2018] Structure Guided Photorealistic Style Transfer [[paper](https://dl.acm.org/doi/10.1145/3240508.3240637)]  
@@ -35,7 +35,7 @@ comment: A novel patch matching algorithm which simultaneously takes high-level 
 
 ### 2019
 #### *[ICCV2019]* Photorealistic Style Transfer via Wavelet Transforms [[paper](https://arxiv.org/abs/1903.09760)][[code](https://github.com/clovaai/WCT2)]  
-comment: *Recommand to reimplement.* Existing methods are limited by spatial distortions or unrealistic artifacts. This paper proposes a wavelet corrected transfer (WCT2) based on whitening and coloring transforms that allows features to preserve their structural information and statistical properties of VGG feature space during stylization.
+comment: *Recommend to reimplement.* Existing methods are limited by spatial distortions or unrealistic artifacts. This paper proposes a wavelet corrected transfer (WCT2) based on whitening and coloring transforms that allows features to preserve their structural information and statistical properties of VGG feature space during stylization.
 
 [ACML2019] High-Resolution Network for Photorealistic Style Transfer [[paper](https://arxiv.org/abs/1904.11617)][[code](https://github.com/limingcv/Photorealistic-Style-Transfer)]  
 comment: This method uses high-resolution generation network for better performance. 
@@ -45,7 +45,7 @@ comment: This method uses high-resolution generation network for better performa
 ### 2020
 [ECCV 2020] Joint Bilateral Learning for Real-time Universal
 Photorealistic Style Transfer [[paper](https://arxiv.org/pdf/2004.10955.pdf)][[code](https://github.com/mousecpn/Joint-Bilateral-Learning)]  
-comment: *Recommand to reimplement.* The method is perform on *Bilateral Space*, thus it is edge-preserve and fast! The transformation is global smooth.
+comment: *Recommend to reimplement.* The method is perform on *Bilateral Space*, thus it is edge-preserve and fast! The transformation is global smooth.
 
 [AAAI2020] Ultrafast Photorealistic Style Transfer via Neural Architecture Search [[paper](https://arxiv.org/abs/1912.02398)][[code](https://github.com/pkuanjie/StyleNAS)]  
 comment: adopt a neural architecture search method to accelerate PhotoNet. An automatic network pruning framework in the manner of teacher-student learning for photorealistic stylization. Ultrafast(achieving 20-30 times acceleration).
